@@ -1,0 +1,30 @@
+{
+  "name": "plw_pro1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:qa": "cross-env TEST_ENV=qa npx playwright test",
+    "show report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kannan9578/plw_pro1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kannan9578/plw_pro1/issues"
+  },
+  "homepage": "https://github.com/Kannan9578/plw_pro1#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1"
+  }
+}

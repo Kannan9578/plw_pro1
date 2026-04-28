@@ -1,0 +1,12 @@
+playwright_project:
+  stage: test
+  script:
+    - npm install
+    - npx playwright install --with-deps
+    - npx playwright test --reporter=html
+  artifacts:
+    when: always
+    paths:
+      - playwright-report/
+    expire_in: 1 week
+    

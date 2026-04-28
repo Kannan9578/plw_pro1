@@ -13,7 +13,7 @@ dotenv.config();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './src/tests',
+  testDir: './src/tests/UITests',
   timeout: 30 * 6000,
   // to find .ts files
   testMatch: ['**/*.ts'],
